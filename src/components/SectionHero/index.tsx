@@ -18,7 +18,7 @@ type Props = {
 const SectionHero = ({ logo }: Props) => (
   <S.Wrapper>
     <Container>
-      <Logo { ...logo } />
+      <Logo {...logo} />
 
       <S.Content>
         <S.TextBlock>
